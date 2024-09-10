@@ -1,16 +1,30 @@
-# tesing_app
+Reels App
+A Flutter-based reels app that fetches and displays videos from an API with pagination, lazy loading, and caching.
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Key Features
+Fetch and display videos from API: https://api.ulearna.com/bytes/all.
+Pagination for smooth scrolling through large datasets.
+Lazy loading for improved performance.
+Video caching using Hive to reduce repeated API requests.
+Error handling for API failures.
+Installation
+Clone the repository.
+Run flutter pub get to install dependencies.
+Use flutter run to launch the app on a connected device.
+Requirements
+Flutter SDK
+API for fetching video content
+Hive for data caching
+BLoC for state management
+Usage
+Launch the app.
+Scroll through videos fetched from the API.
+Videos load and play automatically as you scroll.
+Dependencies
+http
+flutter_bloc
+video_player
+hive
+hive_flutter
+License
+This project is licensed under the MIT License.
